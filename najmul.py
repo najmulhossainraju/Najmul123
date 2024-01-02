@@ -1640,13 +1640,13 @@ def clear():
 def back():
     login()
 def contact():
-    os.system('xdg-open https://www.facebook.com/profile.php?id=100088035424278')
+    os.system('xdg-open https://www.facebook.com/profile.php?id=')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/profile.php?id=100088035424278')
+os.system('xdg-open https://www.facebook.com/profile.php?id=')
 logo ="""
  ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
  ║\033[0;96m●▬▬▬▬▬๑🌸🕌۩[Najmul Hossain ]۩🕌🌸๑▬▬▬▬▬▬●\033[0;91m║
