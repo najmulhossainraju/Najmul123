@@ -1640,13 +1640,13 @@ def clear():
 def back():
     login()
 def contact():
-    os.system('xdg-open https://www.facebook.com/profile.php?id=')
+    os.system('xdg-open https://www.facebook.com/profile.php?id=100088035424278')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/profile.php?id=')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100088035424278')
 logo ="""
  ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
  ║\033[0;96m●▬▬▬▬▬๑🌸🕌۩[Najmul Hossain ]۩🕌🌸๑▬▬▬▬▬▬●\033[0;91m║
@@ -1654,8 +1654,8 @@ logo ="""
         \33[0;91m █████╗ ██╗      ██████╗ ███╗   ██╗███████╗    
         \33[0;91m██╔══██╗██║     ██╔═══██╗████╗  ██║██╔════╝
         \33[0;91m███████║██║     ██║   ██║██╔██╗ ██║█████╗      
-        \33[0;91m██╔══██║██║     ██║   ██║██║╚██╗██║██╔═╝      
-        \33[0;91m██║  ██║███████╗╚██████╔╝██║ ╚████║███████╗
+        \33[0;91m██╔══██║██║     ██║   ██║██║╚██╗██║██╔══╝      
+        \33[0;91m██║  ██║███████╗╚██████╔╝██║ ╚████║███████╗    
         \33[0;91m╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝      
  ╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
  ║\33[0;95m[<🕌Assalamualaikum"Mind It,'You Will Never Alone🕴️>]\033[0;95m║
@@ -1683,13 +1683,29 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Mr-Alon/File-Cloning-Paid/blob/main/Paid.txt').text
+    httpCaht = requests.get('https://github.com/najmulhossainraju/Najmul123/blob/main/V4.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
       msg = str(os.geteuid())
       #time.sleep(0.5)
       print()
+      pass
+    else:
+      print(meyermarexudi)
+     # print(" \033[32;1m[+] Your Kay : "+id)
+      print(' \x1b[38;5;208m╔══[𝟷]💥  FREE-FIRE-TIK-TOK- ID CLONING')      
+      print(' \x1b[1;98m║══[𝟸]💥  ONLY ACTIVE ID CLONE 100%')
+      print(' \x1b[1;93m║══[𝟸]💥  CP ID WILL BE LOGIN 80%')
+      print(' \x1b[1;97m║══[𝟸]💥  WI-FI  AND DATA BOTH WORKING 100%')
+      print(' \x1b[1;95m║══[𝟸]💥  15 DAY 250 TAKA ')
+      print(' \x1b[38;5;50m║══[𝟸]💥  30 DAY 500 TAKA ')
+      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   ALONE,    Please,   Send,   Your,   Key,"')
+      print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
+      input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801319412176?text='+tks),approval()      
+      time.sleep(1)
+      meyexudi()
   except:
     sys.exit()
 meyexudi()
