@@ -1690,22 +1690,6 @@ def meyexudi():
       msg = str(os.geteuid())
       #time.sleep(0.5)
       print()
-      pass
-    else:
-      print(meyermarexudi)
-     # print(" \033[32;1m[+] Your Kay : "+id)
-      print(' \x1b[38;5;208m╔══[𝟷]💥  FREE-FIRE-TIK-TOK- ID CLONING')      
-      print(' \x1b[1;98m║══[𝟸]💥  ONLY ACTIVE ID CLONE 100%')
-      print(' \x1b[1;93m║══[𝟸]💥  CP ID WILL BE LOGIN 80%')
-      print(' \x1b[1;97m║══[𝟸]💥  WI-FI  AND DATA BOTH WORKING 100%')
-      print(' \x1b[1;95m║══[𝟸]💥  15 DAY 250 TAKA ')
-      print(' \x1b[38;5;50m║══[𝟸]💥  30 DAY 500 TAKA ')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MR,   ALONE,    Please,   Send,   Your,   Key,"')
-      print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
-      input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801319412176?text='+tks),approval()      
-      time.sleep(1)
-      meyexudi()
   except:
     sys.exit()
 meyexudi()
